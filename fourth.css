@@ -1,0 +1,206 @@
+*{
+    margin: 1px;
+    padding: 0;   
+}
+h1{
+    height: 28px;
+    background-image: linear-gradient(to right , red ,green 30%, yellow);
+    text-decoration: underline;
+    font-size: 24px;
+    text-align: center;
+}
+#list{
+    margin: 10px;
+    border: 3px solid red;
+    width: 60%;
+    height: 70px;
+    border-radius: 15px;
+    background-color: rgb(141, 216, 239);
+}
+ul {
+  margin: auto 300px;
+}
+.container1{
+    background-color: aquamarine;
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+}
+#para1{
+   width: 28%;
+   font-weight: bold;
+   margin: auto 30px;
+   font-size: 15px;
+   border-radius: 5px;
+   text-align: center;
+   background-color: aqua;
+   border: 2px solid grey;
+   display: inline-block;
+}
+#para2{
+    width: 28%;
+    font-weight: bold;
+    margin: auto 30px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: aqua;
+    border: 2px solid grey;
+    display: inline-block;
+ }
+ #para3{
+    width: 28%;
+    font-weight: bold;
+    margin: auto 20px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: aqua;
+    border: 2px solid grey;
+    display: inline-block;
+ }
+ #para4{
+    width: 28%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: auto;
+    margin-left: 475px;
+    background-color: aqua;
+    border: 2px solid grey;
+    display: inline-block;
+ }
+ h2{
+    height: 30px;
+    margin-top: 15px;
+    background-image: linear-gradient(to left, rgb(243, 11, 146), yellow, rgb(243, 11, 146));
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: center;
+}
+.container2{
+    margin-top: 20px;
+    padding: 55px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid green;
+    height: 100px;
+    background-image: repeating-radial-gradient(blue, rgb(87, 248, 87));
+}
+.container2 p{
+    padding: 10px;
+    font-weight: 600;
+}
+.card-1{
+    background-color: rgb(242, 242, 33);
+    text-decoration: underline;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0px 20px;
+    color: brown;
+    border: 1px solid brown;
+    text-transform: uppercase;
+}
+.card-2{
+    background-color: rgb(242, 242, 33);
+    text-decoration: underline;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0px 20px 10px;
+    color: brown;
+    border: 1px solid brown;
+}
+.card-3{
+    background-color: rgb(242, 242, 33);
+    text-decoration: underline;
+    border-radius: 10px;
+    padding: 0px 20px 10px;
+    color: brown;
+    text-align: center;
+    border: 1px solid brown;
+}
+.card-4{
+    background-color: rgb(242, 242, 33);
+    text-decoration: underline;
+    border-radius: 10px;
+    padding: 0px 20px 10px;
+    color: brown;
+    text-align: center;
+    border: 1px solid brown;
+}
+.container3{
+    display: grid;
+    margin-top: 10px;
+    border: 1px solid grey;
+    grid-template-areas: 
+    "header header header header header header header header"
+    " main main left left right right right menu "
+    "section section section section section section section menu"
+    " footer footer footer footer footer footer footer footer";
+}
+
+.header{
+    background-color: rgb(210, 6, 40);
+    color: white;
+    height: 40px;
+    font-size: 21px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    grid-area: header;
+    text-align: center;
+}
+.menu{
+    background-color: rgb(19, 228, 19);
+    color: white;
+    margin: 10px 10px 0px 0px;
+    font-size: 25px;
+    grid-area: main;
+    text-align: center;
+}
+.left{
+    background-color: rgb(14, 135, 221);
+    color: white;
+    margin: 10px 10px 0px 0px;
+    grid-area: left;
+    font-size: 22px;
+    font-weight: bold;
+}
+.right{
+    background-color: rgb(7, 63, 204);
+    color: white;
+    margin: 10px 5px 0px 0px;
+    font-size: 18px;
+    grid-area: right;
+}
+.aside{
+    background-color: rgb(20, 23, 59);
+    color: aliceblue;
+    margin: 10px 0px 0px 10px;
+    padding: 10px;
+    grid-area: menu;
+    font-size: 25px;
+}
+.aside ol{
+    margin-left: 28px;
+}
+.main{
+    background-color: rgb(250, 162, 61);
+    font-size: 22px;
+    height: 150px;
+    font-weight: bold;
+    grid-area: section;
+    margin: 10px 5px 0px 1px;
+    color: aliceblue;
+}
+.footer{
+    background-color: rgb(23, 200, 235);
+    color: rgb(1, 1, 1);
+    margin: 10px 0px 0px 0px;
+    grid-area: footer;
+    font-size: 21px;
+    text-transform: uppercase;
+    text-align: center;
+}
